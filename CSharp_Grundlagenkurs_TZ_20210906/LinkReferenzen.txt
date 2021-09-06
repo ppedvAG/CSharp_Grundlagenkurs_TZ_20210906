@@ -1,0 +1,34 @@
+
+Microsoft Mitarbeiter: 
+- Scott Hunter (.NET Major)
+- Scott Hanselmann (.NET Major)
+
+- Daniel Roth (.NET & ASP.NET Core)
+
+- Newton King (Serialisierung)
+
+
+Authoren:
+- Dino Esposito
+- Julia Lernman 
+
+
+Design Patterns
+- Martin Fowler (Papst der Design Patterns)
+
+
+
+Link Referenzen:
+Datentypen (Nummeric)
+https://docs.microsoft.com/de-de/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+
+
+
+
+
+
+
+
+
+
+https://docs.microsoft.com/de-de/dotnet/csharp/language-reference/builtin-types/built-in-types
