@@ -32,3 +32,8 @@ https://docs.microsoft.com/de-de/dotnet/csharp/language-reference/builtin-types/
 
 
 https://docs.microsoft.com/de-de/dotnet/csharp/language-reference/builtin-types/built-in-types
+
+
+Question: 
+
+Welcher Konverter wird innerhalt von Convert.ToInt32 oder int.Parse verwended. 

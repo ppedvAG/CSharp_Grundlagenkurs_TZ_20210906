@@ -23,12 +23,12 @@ namespace Modul002_02_Operatoren
             int modulo = zahl3 % zahl4; // 14 % 3  => 2 (REST) 
 
             Random rd = new Random(); //bekommen irgendeine Zufallszahl....von 0 bis int.MaxValue
-            int result = rd.Next(); // 44.567 / 100 = 445 + REST: 567
-
+            int result = rd.Next(); // 44.567 / 100 = 445 + REST: 67
+            
             // Eine Zufallszahl zwischen 1 und 99;
             int randomNumberUnd100 = result % 100;
 
-
+            result = rd.Next(1, 99);
             //Inkrementieren + Dekrementieren
 
             int meineZahl = 5;

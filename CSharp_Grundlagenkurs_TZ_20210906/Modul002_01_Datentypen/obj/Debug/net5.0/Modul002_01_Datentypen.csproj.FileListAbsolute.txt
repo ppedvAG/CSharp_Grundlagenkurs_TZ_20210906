@@ -13,4 +13,3 @@ C:\Aktueller Kurs\CSharp_Grundlagenkurs_TZ_20210906\CSharp_Grundlagenkurs_TZ_202
 C:\Aktueller Kurs\CSharp_Grundlagenkurs_TZ_20210906\CSharp_Grundlagenkurs_TZ_20210906\Modul002_01_Datentypen\obj\Debug\net5.0\ref\Modul002_01_Datentypen.dll
 C:\Aktueller Kurs\CSharp_Grundlagenkurs_TZ_20210906\CSharp_Grundlagenkurs_TZ_20210906\Modul002_01_Datentypen\obj\Debug\net5.0\Modul002_01_Datentypen.pdb
 C:\Aktueller Kurs\CSharp_Grundlagenkurs_TZ_20210906\CSharp_Grundlagenkurs_TZ_20210906\Modul002_01_Datentypen\obj\Debug\net5.0\Modul002_01_Datentypen.genruntimeconfig.cache
-C:\Aktueller Kurs\CSharp_Grundlagenkurs_TZ_20210906\CSharp_Grundlagenkurs_TZ_20210906\Modul002_01_Datentypen\obj\Debug\net5.0\Modul002_01_Datentypen.csproj.AssemblyReference.cache

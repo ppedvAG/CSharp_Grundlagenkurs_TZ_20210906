@@ -9,23 +9,23 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 - [ ] VS-Shortcuts [Link](VS-SHORTCUTS.md)
 
 ## M001 | .NET GRUNDLAGEN
-- [ ] C# [Link](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [ ] .NET 4.8 / .NET Core / .NET 5 
-- [ ] Projekte und Projektmappen
-- [ ] HelloWorld.cs [Link]
-- [ ] DemoConsole.cs [Link]
-- [ ] Startprojekt festlegen
+- [x] C# [Link](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] .NET 4.8 / .NET Core / .NET 5 
+- [x] Projekte und Projektmappen
+- [x] HelloWorld.cs [Link]
+- [x] DemoConsole.cs [Link]
+- [x] Startprojekt festlegen
 - [ ] Sprachgrundlagen
 - [ ] Fragen [Link]
 
 ## M002 | DATENTYPEN, KONVERTIERUNGEN und OPERATOREN
-- [ ] Datentypen [Link]
-- [ ] Parsing & Casting [Link]
-- [ ] Operatoren [Link]
+- [x] Datentypen [Link]
+- [x] Parsing & Casting [Link]
+- [x] Operatoren [Link]
 - [ ] Fragen [Link]
   
 ## M003 | KONTROLLSTRUKTUREN und BOOLESCHE LOGIK
-- [ ] logische Operatoren [Link]
+- [x] logische Operatoren [Link]
 - [ ] if-Abfrage [Link]
 - [ ] switch-Anweisung [Link]
 - [ ] Fragen [Link]

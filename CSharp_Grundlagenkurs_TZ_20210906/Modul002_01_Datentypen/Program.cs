@@ -114,8 +114,9 @@ namespace Modul002_01_Datentypen
             Console.WriteLine(meineNullbareZahl);
             Console.WriteLine(meineNullbareZahl.Value);
 
-
             string nullbarerString = null;
+            nullbarerString = string.Empty;
+
 
             if (string.IsNullOrEmpty(nullbarerString))
             {
