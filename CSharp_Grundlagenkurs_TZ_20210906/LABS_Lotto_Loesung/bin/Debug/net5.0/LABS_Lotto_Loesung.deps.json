@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LABS_Lotto_Loesung/1.0.0": {
+        "runtime": {
+          "LABS_Lotto_Loesung.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LABS_Lotto_Loesung/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
