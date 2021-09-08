@@ -26,17 +26,17 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
   
 ## M003 | KONTROLLSTRUKTUREN und BOOLESCHE LOGIK
 - [x] logische Operatoren [Link]
-- [ ] if-Abfrage [Link]
-- [ ] switch-Anweisung [Link]
+- [x] if-Abfrage [Link]
+- [x] switch-Anweisung [Link]
 - [ ] Fragen [Link]
 
 ## M004 | ARRAYS, SCHLEIFEN und ENUMS
-- [ ] Arrays [Link]
-- [ ] Enums [Link]
-- [ ] for-Schleife [Link]
-- [ ] foreach-Schleife [Link]
-- [ ] while-Schleifen [Link]
-- [ ] do-while-Schleife [Link]
+- [x] Arrays [Link]
+- [x] Enums [Link]
+- [x] for-Schleife [Link]
+- [x] foreach-Schleife [Link]
+- [x] while-Schleifen [Link]
+- [x] do-while-Schleife [Link]
 - [ ] Fragen [Link]
 
 ## M005 | STATISCHE MEMBER

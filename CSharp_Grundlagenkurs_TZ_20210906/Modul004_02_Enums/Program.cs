@@ -18,7 +18,7 @@ namespace Modul004_02_Enums
         Apfel = 8,
         Pflaume = 16,
         Birne = 32
-    }
+    } 
 
 
     [Flags]
@@ -71,9 +71,31 @@ namespace Modul004_02_Enums
             Console.WriteLine("Hello World!");
 
 
-            Fruechte fruchtkorb = Fruechte.Orange | Fruechte.Banane | Fruechte.Birne; 
+            Fruechte fruchtkorb = Fruechte.Orange | Fruechte.Banane | Fruechte.Birne; //Hintergrund -> 37 
 
-            int fruchtKorbAsInteger = Fruechte.Orange | Fruechte.Banane | Fruechte.Birne;
+            //auf einzelne Enumerationsmember pruefen
+            bool istOrangeImFruchtkorb = (fruchtkorb & Fruechte.Orange) == Fruechte.Orange;
+            Console.WriteLine($"Gibt es im Fruchtkorb Orangen: {istOrangeImFruchtkorb}");
+
+
+            #region Wiederholungsbeispiel Enums mit BitFlag
+
+            //Setzen eines BitFlag
+            DinnerItems myOrder = DinnerItems.Appetizer | DinnerItems.Entree |
+                              DinnerItems.Beverage | DinnerItems.Dessert;
+
+
+            DinnerItems flagValue = DinnerItems.Entree | DinnerItems.Beverage;
+
+            //HasFlag prüft auch, ob ein Eintrag in der Kombination sich befindet
+            if (myOrder.HasFlag(DinnerItems.Appetizer))
+            {
+                // DinnerItems.Appetizer ist vorhanden
+            }
+
+            Console.WriteLine("{0} includes {1}: {2}",
+                              myOrder, flagValue, myOrder.HasFlag(flagValue));
+            #endregion
 
         }
     }
