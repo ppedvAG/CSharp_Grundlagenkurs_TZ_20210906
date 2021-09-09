@@ -16,6 +16,6 @@ namespace Modul006_02_ClassFieldsProperties
             //electroCar.Höchstgeschwindigkeit = 130;
 
 
-        }
+        } 
     }
 }

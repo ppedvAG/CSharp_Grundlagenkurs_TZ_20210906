@@ -15,7 +15,7 @@ namespace Modul006_02_ClassFieldsProperties
 
         private string _model;
 
-        //Auto-Property
+        //Auto-Property -> DTO (Data Transfer Objects) - ViewModels - POCOS 
         public string Marke { get; set; } //Zur das Programm kompiliert, wird im eine Member-Variale automatisch erstellt 
 
         //Auto-Property soll zu einer normalen Property mit MemberVariable umkonventiert werden

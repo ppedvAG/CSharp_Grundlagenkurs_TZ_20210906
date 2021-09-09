@@ -40,22 +40,22 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 - [ ] Fragen [Link]
 
 ## M005 | STATISCHE MEMBER
-- [ ] Funktionen [Link]
+- [x] Funktionen [Link]
 - [ ] Eigenschaften [Link]
 - [ ] Fragen [Link]
 
 ## M006 | OOP - NAMESPACES, KLASSEN, FELDER und KAPSELUNGEN
-- [ ] Namespaces [Link]
-- [ ] Klassen [Link]
-- [ ] Felder [Link]
-- [ ] Eigenschaften [Link]
-- [ ] Kapselungen [Link]
-- [ ] partielle Klassen und Methoden [Link]
+- [x] Namespaces [Link]
+- [x] Klassen [Link]
+- [x] Member-Variablen/Felder (Fields) [Link]
+- [x] Eigenschaften [Link]
+- [x] Kapselungen [Link]
+- [x] partielle Klassen und Methoden [Link]
 - [ ] Fragen [Link]
 
 ## M007 | OOP - OBJEKTE, METHODEN und PARAMETER
-- [ ] Objekte [Link]
-- [ ] Konstruktor und Destruktor [Link]
+- [x] Objekte [Link]
+- [0] Konstruktor und Destruktor [Link]
 - [ ] Garbage Collection
 - [ ] Überladung [Link]
 - [ ] optionale Parameter [Link]

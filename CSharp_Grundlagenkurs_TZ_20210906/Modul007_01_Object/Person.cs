@@ -18,7 +18,7 @@ namespace Modul007_01_Object
     }
 
 
-    public class Person
+    public class Person : IDisposable
     {
         public string Vorname { get; set; }
 
@@ -28,10 +28,13 @@ namespace Modul007_01_Object
 
         public int  HaarFarbe { get; set; }
 
-
         public Beine LinkesBein { get; set; }
         public Beine RechtesBein { get; set; }
 
+        //public Person() //Default Konstruktor -> Wenn eine Klasse keinen Konstruktor besetzt, wird beim kompilieren ein Default Konstruktor hinzugeneriert
+        //{
+
+        //}
 
         //Shortcut: ctor + tab + tab
         //Default-Konstruktor hat keine Parameter und kümmert sich um die Default Befüllung
@@ -43,11 +46,12 @@ namespace Modul007_01_Object
             HaarFarbe = default(int);
         }
 
-        public Person (string vorname, string nachname)
+        public Person(string vorname, string nachname)
         {
             Vorname = vorname;
             Nachname = nachname;
         }
+
 
         public Person(string vorname, string nachname, DateTime geburtstag)
             : this(vorname, nachname) //Ich rufe aus meiner Klasse einen anderen Konstruktor auf 
@@ -59,6 +63,7 @@ namespace Modul007_01_Object
 
             //Vorname = vorname;
             //Nachname = nachname;
+
             Geburtstag = geburtstag;
         }
 
@@ -69,12 +74,31 @@ namespace Modul007_01_Object
         }
 
         public Person(string vorname, string nachname, DateTime geburtstag, int haarfarbe, Beine linkesBein, Beine rechtsBein)
-            :this(vorname, nachname, geburtstag, haarfarbe)
+            : this(vorname, nachname, geburtstag, haarfarbe)
         {
             LinkesBein = linkesBein;
             RechtesBein = null; //hier geht was schief -> habe das mit null dachgestellt
         }
 
-        
+
+        public void CallGC ()
+        {
+           
+        }
+
+        public void Dispose()
+        {
+            // here you can free the resources you allocated explicitly
+            System.GC.SuppressFinalize(this);
+        }
+
+
+        #region Dekonstruktor  //Destruktor wird durch die GC aufgerufen
+        ~Person ()
+        {
+            Console.WriteLine("Destruktoraufruf: das Objekt wird nun zerstoert"); 
+        }
+        #endregion
+
     }
 }

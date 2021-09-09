@@ -29,19 +29,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul004_01_Arrays", "Modul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul004_02_Enums", "Modul004_02_Enums\Modul004_02_Enums.csproj", "{B49B5E72-AA23-40C8-B639-6E0C9DF7A5C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_Wdh_EnumVsArrays", "Modul004_Wdh_EnumVsArrays\Modul004_Wdh_EnumVsArrays.csproj", "{4D8369C2-7DE4-4C72-8BC9-BCBBC70B7BE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul004_Wdh_EnumVsArrays", "Modul004_Wdh_EnumVsArrays\Modul004_Wdh_EnumVsArrays.csproj", "{4D8369C2-7DE4-4C72-8BC9-BCBBC70B7BE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LABS_Lotto_Loesung", "LABS_Lotto_Loesung\LABS_Lotto_Loesung.csproj", "{CFCDFF03-249B-4190-969E-B3DEA9E9E123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LABS_Lotto_Loesung", "LABS_Lotto_Loesung\LABS_Lotto_Loesung.csproj", "{CFCDFF03-249B-4190-969E-B3DEA9E9E123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul005_01_StatischeMethoden", "Modul005_01_StatischeMethoden\Modul005_01_StatischeMethoden.csproj", "{ED5E36B3-8F04-40E5-90C3-E80D01BDCE87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul005_01_StatischeMethoden", "Modul005_01_StatischeMethoden\Modul005_01_StatischeMethoden.csproj", "{ED5E36B3-8F04-40E5-90C3-E80D01BDCE87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_01_NamespacesKlassen", "Modul006_01_NamespacesKlassen\Modul006_01_NamespacesKlassen.csproj", "{B6BA7BDC-FA7A-43C9-88B0-04E3420E68B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul006_01_NamespacesKlassen", "Modul006_01_NamespacesKlassen\Modul006_01_NamespacesKlassen.csproj", "{B6BA7BDC-FA7A-43C9-88B0-04E3420E68B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_02_ClassFieldsProperties", "Modul006_02_ClassFieldsProperties\Modul006_02_ClassFieldsProperties.csproj", "{A25D1C4B-6493-4CFF-9070-B645EB8E2E9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul006_02_ClassFieldsProperties", "Modul006_02_ClassFieldsProperties\Modul006_02_ClassFieldsProperties.csproj", "{A25D1C4B-6493-4CFF-9070-B645EB8E2E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_03_PartialClass", "Modul006_03_PartialClass\Modul006_03_PartialClass.csproj", "{29336004-8059-4234-AED2-9F23FC0BD5CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul006_03_PartialClass", "Modul006_03_PartialClass\Modul006_03_PartialClass.csproj", "{29336004-8059-4234-AED2-9F23FC0BD5CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul007_01_Object", "Modul007_01_Object\Modul007_01_Object.csproj", "{EEF6CDBE-418C-4B8C-AFD6-6AFC996D0D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul007_01_Object", "Modul007_01_Object\Modul007_01_Object.csproj", "{EEF6CDBE-418C-4B8C-AFD6-6AFC996D0D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul007_02_Methoden", "Modul007_02_Methoden\Modul007_02_Methoden.csproj", "{F4B496F0-E2BB-41A0-A7C5-033EDBC9FF79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{EEF6CDBE-418C-4B8C-AFD6-6AFC996D0D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEF6CDBE-418C-4B8C-AFD6-6AFC996D0D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEF6CDBE-418C-4B8C-AFD6-6AFC996D0D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B496F0-E2BB-41A0-A7C5-033EDBC9FF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B496F0-E2BB-41A0-A7C5-033EDBC9FF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B496F0-E2BB-41A0-A7C5-033EDBC9FF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B496F0-E2BB-41A0-A7C5-033EDBC9FF79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
