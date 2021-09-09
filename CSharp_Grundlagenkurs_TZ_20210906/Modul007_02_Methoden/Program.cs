@@ -44,6 +44,13 @@ namespace Modul007_02_Methoden
 
             //hier hat min den Wert von 11
             //hier hat max den Wert von 22
+            int convertedValue;
+
+            //Out wird z.b in TryParse verwendet 
+            if(int.TryParse("12345", out convertedValue))
+            {
+                Console.WriteLine($"Juhu iam a number {convertedValue}");
+            }
         }
     }
 }
