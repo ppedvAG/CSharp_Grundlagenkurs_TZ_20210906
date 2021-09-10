@@ -23,7 +23,7 @@ namespace Modul007_02_Methoden
             paramsParameter.Addiere(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 
-            int[] meinZahlenArray = { 1, 2, 3 };
+            int[] meinZahlenArray = { 1, 2, 3 ,4};
             paramsParameter.AddiereOld(meinZahlenArray);
 
             OutInRefParameter outInRefParameter = new OutInRefParameter();
@@ -33,9 +33,11 @@ namespace Modul007_02_Methoden
             int max=20;
             float avg=30;
 
-
+            
             float result = outInRefParameter.Berechne(11, 22, out min, out max, out avg);
 
+            Console.WriteLine(min);
+            Console.WriteLine(max);
             Addiere addiere = new Addiere();
             addiere.Zahl1 = 11;
             addiere.Zahl2 = 22;

@@ -43,15 +43,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul006_03_PartialClass", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul007_01_Object", "Modul007_01_Object\Modul007_01_Object.csproj", "{EEF6CDBE-418C-4B8C-AFD6-6AFC996D0D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul007_02_Methoden", "Modul007_02_Methoden\Modul007_02_Methoden.csproj", "{F4B496F0-E2BB-41A0-A7C5-033EDBC9FF79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul007_02_Methoden", "Modul007_02_Methoden\Modul007_02_Methoden.csproj", "{F4B496F0-E2BB-41A0-A7C5-033EDBC9FF79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_01_Vererbung", "Modul008_01_Vererbung\Modul008_01_Vererbung.csproj", "{AFAD5AF1-AA2B-4C5C-9EB8-F80F8C490B0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_01_Vererbung", "Modul008_01_Vererbung\Modul008_01_Vererbung.csproj", "{AFAD5AF1-AA2B-4C5C-9EB8-F80F8C490B0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_02_Lib", "Modul008_02_Lib\Modul008_02_Lib.csproj", "{3A6D4CF7-50A1-4E8C-9E94-A893D280BA56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_02_Lib", "Modul008_02_Lib\Modul008_02_Lib.csproj", "{3A6D4CF7-50A1-4E8C-9E94-A893D280BA56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_02_Zugriffmodifier", "Modul008_02_Zugriffmodifier\Modul008_02_Zugriffmodifier.csproj", "{97A46E0A-539D-4BC3-A4F0-C969DF823E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_02_Zugriffmodifier", "Modul008_02_Zugriffmodifier\Modul008_02_Zugriffmodifier.csproj", "{97A46E0A-539D-4BC3-A4F0-C969DF823E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_01_Polymorphiesmus_Virtual", "Modul009_01_Polymorphiesmus_Virtual\Modul009_01_Polymorphiesmus_Virtual.csproj", "{EDCB7FBA-998A-4EC4-BEC4-A74CB013644D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul009_01_Polymorphiesmus_Virtual", "Modul009_01_Polymorphiesmus_Virtual\Modul009_01_Polymorphiesmus_Virtual.csproj", "{EDCB7FBA-998A-4EC4-BEC4-A74CB013644D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_02_Polymorphiesmus_abstract", "Modul009_02_Polymorphiesmus_abstract\Modul009_02_Polymorphiesmus_abstract.csproj", "{BAEDEA58-C581-4967-850B-D136BBA56160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_03_Polymorphiesmus_ListenSample", "Modul009_03_Polymorphiesmus_ListenSample\Modul009_03_Polymorphiesmus_ListenSample.csproj", "{735BFF5A-49A0-4DD1-BE19-977315886B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul010_01_Typpruefung", "Modul010_01_Typpruefung\Modul010_01_Typpruefung.csproj", "{CDF4A3BA-EB1E-4388-B0CE-65F589570FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul011_01_Interfaces", "Modul011_01_Interfaces\Modul011_01_Interfaces.csproj", "{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +155,22 @@ Global
 		{EDCB7FBA-998A-4EC4-BEC4-A74CB013644D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCB7FBA-998A-4EC4-BEC4-A74CB013644D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDCB7FBA-998A-4EC4-BEC4-A74CB013644D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEDEA58-C581-4967-850B-D136BBA56160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEDEA58-C581-4967-850B-D136BBA56160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEDEA58-C581-4967-850B-D136BBA56160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEDEA58-C581-4967-850B-D136BBA56160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735BFF5A-49A0-4DD1-BE19-977315886B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735BFF5A-49A0-4DD1-BE19-977315886B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735BFF5A-49A0-4DD1-BE19-977315886B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735BFF5A-49A0-4DD1-BE19-977315886B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF4A3BA-EB1E-4388-B0CE-65F589570FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF4A3BA-EB1E-4388-B0CE-65F589570FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF4A3BA-EB1E-4388-B0CE-65F589570FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF4A3BA-EB1E-4388-B0CE-65F589570FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

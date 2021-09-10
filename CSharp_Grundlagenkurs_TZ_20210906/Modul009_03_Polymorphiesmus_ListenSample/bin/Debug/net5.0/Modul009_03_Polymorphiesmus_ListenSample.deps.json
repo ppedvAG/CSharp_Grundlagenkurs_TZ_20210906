@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Modul009_03_Polymorphiesmus_ListenSample/1.0.0": {
+        "runtime": {
+          "Modul009_03_Polymorphiesmus_ListenSample.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Modul009_03_Polymorphiesmus_ListenSample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

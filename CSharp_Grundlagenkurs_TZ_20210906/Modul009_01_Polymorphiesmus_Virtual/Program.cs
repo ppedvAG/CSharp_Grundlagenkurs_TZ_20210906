@@ -7,6 +7,8 @@ namespace Modul009_01_Polymorphiesmus_Virtual
     {
         static void Main(string[] args)
         {
+
+            #region Obst-Beispiel
             Obst obst = new Obst();
             obst.Gewicht = 1;
             Console.WriteLine(obst.WasBinIch());
@@ -14,12 +16,12 @@ namespace Modul009_01_Polymorphiesmus_Virtual
             
             Apfel apfel = new Apfel();
             Console.WriteLine(apfel.WasBinIch());
+            #endregion
 
 
 
 
-
-
+            #region Geometry Beispiel
             double r = 3.0, h = 5.0;
             Rectangle rectangle = new Rectangle(3, 5);
             Circle c = new Circle(r);
@@ -65,7 +67,26 @@ namespace Modul009_01_Polymorphiesmus_Virtual
             //        circle.RotateCircle();
             //    }
             //}
-               
+
+            #endregion
+
+
+            #region Documente
+
+            PDFDocument pdfDoc = new PDFDocument();
+            pdfDoc.Print();
+            Console.WriteLine(pdfDoc.ToString()); 
+
+
+            CrystalReports crystalDoc = new CrystalReports();
+            crystalDoc.Print();
+            Console.WriteLine(crystalDoc.ToString()); 
+
+
+            WordDocument wordDocument = new();
+            wordDocument.Print();
+
+            #endregion
         }
     }
 
@@ -218,5 +239,75 @@ namespace Modul009_01_Polymorphiesmus_Virtual
             // Ausgabe von Variablen
         }
     }
+    #endregion
+
+
+    #region Dokumente
+    public class DocumentObject
+    {
+
+         
+        public virtual string FileName { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+        public string CreatedBy { get; set; }
+
+        public virtual void Print()
+        {
+            // Versuche unbekanntes Format zu drucken
+            Console.WriteLine("Versuche unbekanntes Format zu drucken");
+        }
+
+        public override string ToString()
+        {
+            return $"Docinfos -> {FileName}, {CreatedAt}, {CreatedBy}";
+        }
+    }
+
+    public class PDFDocument : DocumentObject
+    {
+        public int CompressRate { get; set; }
+
+        public override string FileName 
+        { 
+            get => base.FileName;
+            set
+            {
+                if (value.EndsWith(".pdf"))
+                    base.FileName = value;
+                else
+                    throw new Exception("falsches Dateiformat");
+            }
+        }
+
+        public override void Print()
+        {
+            Console.WriteLine("Ich druck ein PDF");
+        }
+
+        public override string ToString()
+        {
+            return $"PDF Document mit einer CompressRate von {CompressRate} " + base.ToString();
+        }
+    }
+
+    public class WordDocument : DocumentObject
+    {
+        public int WordDocVersion { get; set; }
+
+        public override void Print()
+        {
+            Console.WriteLine("Ich druck ein Word Document");
+        }
+    }
+
+    public class CrystalReports : DocumentObject
+    {
+        public int CrystalReportVersion { get; set; }
+
+        
+    }
+
+
     #endregion
 }

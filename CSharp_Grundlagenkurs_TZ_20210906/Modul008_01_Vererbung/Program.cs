@@ -59,8 +59,6 @@ namespace Modul008_01_Vererbung
             : base (alter) 
         {
             Wohnort = wohnort;
-
-            
         }
 
 

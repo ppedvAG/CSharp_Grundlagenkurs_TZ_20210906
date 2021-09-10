@@ -53,7 +53,7 @@ namespace Modul007_02_Methoden
         {
             //in int ist readonly
             //Faktor = 123; - 
-            return zahl1 + zahl2;
+            return zahl1 + zahl2 * Faktor;
         }
 
         public float BerechneMitRef(int zahl1, int zahl2, ref int Faktor)
