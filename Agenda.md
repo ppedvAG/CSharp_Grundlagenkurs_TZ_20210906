@@ -91,7 +91,25 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 - [ ] Interface ab C# 8 [Link](Uebungen/Modul011_02_InterfaceCSharp8/Program.cs) 
 - [ ] Fragen [Link](Uebungen/Modul011_Fragen) 
 
-## M012 | GENERISCHE LISTEN, DICTIONARY, STACK und QUEUE
+
+## M013 | FEHLERBEHANDLUNG
+- [ ] Fehlertypen
+- [ ] try-catch [Link](Uebungen/Modul014_01_Fehlerbehandlung/Program.cs) 
+- [ ] Debugger 
+- [ ] UnitTests [Link](Uebungen/Modul014_02_UnitTest_Funktionen/Program.cs) 
+
+## M014 | SOLID (Di)
+- [ ] - 5 SOLID-Regeln 
+
+## M015 Delegates (optional: Wunsch von Teilnehmer) (ab Mi)
+- [ ] - Delagets
+- [ ] - Actions
+- [ ] - Func
+- [ ] - Delegates mit Callback
+- [ ] - Actions mit Callback
+- [ ] - Event + EventHandler 
+
+## M016 | GENERISCHE LISTEN, DICTIONARY, STACK und QUEUE
 - [ ] Listen [Link](Uebungen/Modul012_01_Listen/List.cs) 
 - [ ] Dictionary [Link](Uebungen/Modul012_01_Listen/Dictionary.cs) 
 - [ ] Stack [Link](Uebungen/Modul012_01_Listen/Stack.cs) 
@@ -100,14 +118,7 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 - [ ] Tuple [Link](Uebungen/Modul012_01_Listen/Tuple.cs) 
 - [ ] Fragen [Link](Uebungen/Modul012_Fragen) 
 
-## M013 | FEHLERBEHANDLUNG
-- [ ] Fehlertypen
-- [ ] try-catch [Link](Uebungen/Modul014_01_Fehlerbehandlung/Program.cs) 
-- [ ] Debugger 
-- [ ] UnitTests [Link](Uebungen/Modul014_02_UnitTest_Funktionen/Program.cs) 
-
-
-## M015 | DATEIEN und VERZEICHNISSE (optional)
+## M017 | DATEIEN und VERZEICHNISSE (optional)
 - [ ] Dateien lesen/schreiben [Link](Uebungen/Modul015_01_Dateien_Verzeichnisse/MainWindow.xaml.cs)
 - [ ] Serialisierung Binär 
 - [ ] JSON [Link](Uebungen/Modul015_02_JSON/Program.cs)
@@ -116,13 +127,6 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 - [ ] Fragen [Link](Uebungen/Modul015_Fragen)
 
 
-## M016 | ABSCHLUSSPROJEKT (optional)
-- [ ] API [Link](Uebungen/Modul016_API)
-- [ ] WPF [Link](Uebungen/Modul016_WPF)
-
-## M017 | ZUSÄTZLICHE THEMEN (optional)
-- [ ] Klassendiagramme
-- [ ] Deployment
 
 
 

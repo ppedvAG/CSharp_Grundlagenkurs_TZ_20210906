@@ -53,13 +53,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_02_Zugriffmodifier
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul009_01_Polymorphiesmus_Virtual", "Modul009_01_Polymorphiesmus_Virtual\Modul009_01_Polymorphiesmus_Virtual.csproj", "{EDCB7FBA-998A-4EC4-BEC4-A74CB013644D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_02_Polymorphiesmus_abstract", "Modul009_02_Polymorphiesmus_abstract\Modul009_02_Polymorphiesmus_abstract.csproj", "{BAEDEA58-C581-4967-850B-D136BBA56160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul009_02_Polymorphiesmus_abstract", "Modul009_02_Polymorphiesmus_abstract\Modul009_02_Polymorphiesmus_abstract.csproj", "{BAEDEA58-C581-4967-850B-D136BBA56160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_03_Polymorphiesmus_ListenSample", "Modul009_03_Polymorphiesmus_ListenSample\Modul009_03_Polymorphiesmus_ListenSample.csproj", "{735BFF5A-49A0-4DD1-BE19-977315886B9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul009_03_Polymorphiesmus_ListenSample", "Modul009_03_Polymorphiesmus_ListenSample\Modul009_03_Polymorphiesmus_ListenSample.csproj", "{735BFF5A-49A0-4DD1-BE19-977315886B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul010_01_Typpruefung", "Modul010_01_Typpruefung\Modul010_01_Typpruefung.csproj", "{CDF4A3BA-EB1E-4388-B0CE-65F589570FA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul010_01_Typpruefung", "Modul010_01_Typpruefung\Modul010_01_Typpruefung.csproj", "{CDF4A3BA-EB1E-4388-B0CE-65F589570FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul011_01_Interfaces", "Modul011_01_Interfaces\Modul011_01_Interfaces.csproj", "{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul011_01_Interfaces", "Modul011_01_Interfaces\Modul011_01_Interfaces.csproj", "{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul011_01_Interfaces_Wdh", "Modul011_01_Interfaces_Wdh\Modul011_01_Interfaces_Wdh.csproj", "{514FCEB4-F74B-4B55-AF3C-F8C6E5FE6480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17308ED3-75B6-4162-8C6E-348FF7FB4B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514FCEB4-F74B-4B55-AF3C-F8C6E5FE6480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514FCEB4-F74B-4B55-AF3C-F8C6E5FE6480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514FCEB4-F74B-4B55-AF3C-F8C6E5FE6480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514FCEB4-F74B-4B55-AF3C-F8C6E5FE6480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

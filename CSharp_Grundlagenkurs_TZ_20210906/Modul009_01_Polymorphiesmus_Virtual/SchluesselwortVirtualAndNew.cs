@@ -24,10 +24,10 @@ namespace Modul009_01_Polymorphiesmus_Virtual
 
     public class ElectroCar : Auto
     {
-        public override string WasBinIch() //<-- ich finde in meiner Parent-Klasse nur eine normale Methode...... override schhlägt daher fehl. 
-        {
-            return "Ich bin ein ElectroCar";
-        }
+        //public override string WasBinIch() //<-- ich finde in meiner Parent-Klasse nur eine normale Methode...... override schhlägt daher fehl. 
+        //{
+        //    return "Ich bin ein ElectroCar";
+        //}
 
     }
 }
