@@ -99,7 +99,7 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 - [ ] UnitTests [Link](Uebungen/Modul014_02_UnitTest_Funktionen/Program.cs) 
 
 ## M014 | SOLID (Di)
-- [ ] - 5 SOLID-Regeln 
+- [x] - 5 SOLID-Regeln 
 
 ## M015 Delegates (optional: Wunsch von Teilnehmer) (ab Mi)
 - [ ] - Delagets
@@ -112,9 +112,11 @@ C# Grundlagenkurs in Vollzeit vom 17.08.2021 bis 20.08.2021 - Trainer: Kevin Win
 ## M016 | GENERISCHE LISTEN, DICTIONARY, STACK und QUEUE
 - [ ] Listen [Link](Uebungen/Modul012_01_Listen/List.cs) 
 - [ ] Dictionary [Link](Uebungen/Modul012_01_Listen/Dictionary.cs) 
+- [ ] Hashtable [Link](Uebungen/Modul012_01_Listen/Hashtable.cs) 
+
 - [ ] Stack [Link](Uebungen/Modul012_01_Listen/Stack.cs) 
 - [ ] Queue [Link](Uebungen/Modul012_01_Listen/Queue.cs) 
-- [ ] Hashtable [Link](Uebungen/Modul012_01_Listen/Hashtable.cs) 
+
 - [ ] Tuple [Link](Uebungen/Modul012_01_Listen/Tuple.cs) 
 - [ ] Fragen [Link](Uebungen/Modul012_Fragen) 
 
